@@ -1,6 +1,5 @@
 package com.wanderlog.agencies
 
-import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
