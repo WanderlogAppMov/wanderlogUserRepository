@@ -216,7 +216,7 @@
         android:id="@+id/button"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="16dp"
         android:backgroundTint="@color/white"
         android:text="Log Out"
         android:textColor="@color/WanderlogMainColor"

@@ -3,6 +3,8 @@ package com.wanderlog.agencies
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -26,6 +28,11 @@ class LoginActivity : AppCompatActivity() {
         // Listener para redirigir a la vista principal
         signInButton.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+        val ivEditPackage1 = findViewById<TextView>(R.id.tvSignUp)
+        ivEditPackage1.setOnClickListener {
+            val intent = Intent(this, Registration::class.java)
             startActivity(intent)
         }
     }

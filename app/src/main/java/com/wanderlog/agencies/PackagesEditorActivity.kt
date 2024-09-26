@@ -29,5 +29,15 @@ class PackagesEditorActivity : AppCompatActivity() {
             val intent = Intent(this, managePackageActivity::class.java)
             startActivity(intent)
         }
+        val ivEditPackage2 = findViewById<ImageView>(R.id.editPackage2)
+        ivEditPackage2.setOnClickListener {
+            val intent = Intent(this, managePackageActivity::class.java)
+            startActivity(intent)
+        }
+        val ivEditPackage3 = findViewById<ImageView>(R.id.editPackage3)
+        ivEditPackage3.setOnClickListener {
+            val intent = Intent(this, managePackageActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
