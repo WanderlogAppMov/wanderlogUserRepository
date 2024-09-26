@@ -79,7 +79,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@drawable/manage_packages_selected" />
+            app:srcCompat="@drawable/manage_packages" />
 
         <View
             android:id="@+id/separatorView"
@@ -97,7 +97,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@drawable/view_sales" />
+            app:srcCompat="@drawable/view_sales_selected" />
     </LinearLayout>
 
     <ImageView
