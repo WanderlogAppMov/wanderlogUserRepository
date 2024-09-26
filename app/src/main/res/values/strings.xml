@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WanderLog</string>
+    <string name="signUp">Sign Up</string>
+    <string name="noAccount">Don\'t have an account?</string>
+    <string name="logoDescription">Main Wanderlog Logo</string>
+    <string name="continueWithUsername">Continue with username/email</string>
+    <string name="usernameOrEmail">username of email address</string>
+    <string name="password">password</string>
+    <string name="organizationName">Organization Name</string>
+    <string name="underlined_booking_communication"><u>Booking Communication</u></string>
+    <string name="alreadyHaveAccount">Ya tengo una cuenta carajo</string>
+    <string name="signIn">Ya tengo una cuenta carajo</string>
+</resources>
