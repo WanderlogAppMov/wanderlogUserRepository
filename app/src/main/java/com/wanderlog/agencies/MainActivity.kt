@@ -43,5 +43,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, BookingCommunicationActivity::class.java)
             startActivity(intent)
         }
+        val imageView: ImageView = findViewById(R.id.imageView)
+        imageView.setOnClickListener {
+            val intent = Intent(this, userProfileView::class.java)
+            startActivity(intent)
+        }
     }
 }
