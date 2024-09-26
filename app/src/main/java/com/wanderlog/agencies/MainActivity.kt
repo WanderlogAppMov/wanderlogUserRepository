@@ -59,5 +59,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, PackagesEditorActivity::class.java)
             startActivity(intent)
         }
+        val button4: Button = findViewById(R.id.button4)
+        button4.setOnClickListener {
+            val intent = Intent(this, adminPanelActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
