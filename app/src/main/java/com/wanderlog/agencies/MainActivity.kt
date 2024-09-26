@@ -48,5 +48,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, userProfileView::class.java)
             startActivity(intent)
         }
+        val imageView2: ImageView = findViewById(R.id.imageView2)
+        imageView2.setOnClickListener {
+            val intent = Intent(this, adminPanelActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
