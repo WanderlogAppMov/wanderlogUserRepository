@@ -24,5 +24,11 @@ class adminPanelActivity : AppCompatActivity() {
             val intent = Intent(this, PackagesEditorActivity::class.java)
             startActivity(intent)
         }
+
+        val ivgoViewSales = findViewById<ImageView>(R.id.imageView16)
+        ivgoViewSales.setOnClickListener {
+            val intent = Intent(this, viewSalesActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
