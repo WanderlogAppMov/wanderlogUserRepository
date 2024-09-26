@@ -23,5 +23,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, HotelsEditorActivity::class.java)
             startActivity(intent)
         }
+        val imageView13: ImageView = findViewById(R.id.imageView13)
+        imageView13.setOnClickListener {
+            val intent = Intent(this, FlightsEditorActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
