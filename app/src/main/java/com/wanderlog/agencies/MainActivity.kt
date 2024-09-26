@@ -2,6 +2,7 @@ package com.wanderlog.agencies
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -51,6 +52,11 @@ class MainActivity : AppCompatActivity() {
         val imageView2: ImageView = findViewById(R.id.imageView2)
         imageView2.setOnClickListener {
             val intent = Intent(this, adminPanelActivity::class.java)
+            startActivity(intent)
+        }
+        val button3: Button = findViewById(R.id.button3)
+        button3.setOnClickListener {
+            val intent = Intent(this, PackagesEditorActivity::class.java)
             startActivity(intent)
         }
     }
