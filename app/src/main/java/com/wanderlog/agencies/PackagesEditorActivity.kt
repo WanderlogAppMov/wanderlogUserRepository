@@ -1,5 +1,6 @@
 package com.wanderlog.agencies
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
@@ -21,6 +22,12 @@ class PackagesEditorActivity : AppCompatActivity() {
         val ivGoBackMainActivity = findViewById<ImageView>(R.id.imageView)
         ivGoBackMainActivity.setOnClickListener {
             finish()
+        }
+
+        val ivEditPackage1 = findViewById<ImageView>(R.id.editPackage1)
+        ivEditPackage1.setOnClickListener {
+            val intent = Intent(this, managePackageActivity::class.java)
+            startActivity(intent)
         }
     }
 }
