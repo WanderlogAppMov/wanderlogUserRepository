@@ -25,10 +25,15 @@ class adminPanelActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val ivgoViewSales = findViewById<ImageView>(R.id.imageView16)
-        ivgoViewSales.setOnClickListener {
+        val ivGoViewSales = findViewById<ImageView>(R.id.imageView16)
+        ivGoViewSales.setOnClickListener {
             val intent = Intent(this, viewSalesActivity::class.java)
             startActivity(intent)
+        }
+
+        val ivGoBackMainActivity = findViewById<ImageView>(R.id.imageView)
+        ivGoBackMainActivity.setOnClickListener {
+            finish()
         }
     }
 }
