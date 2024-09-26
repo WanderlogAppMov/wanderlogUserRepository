@@ -1,6 +1,7 @@
 package com.wanderlog.agencies
 
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -20,6 +21,11 @@ class AttractionsEditorActivity : AppCompatActivity() {
 
         val ivGoBackMainActivity = findViewById<ImageView>(R.id.imageView)
         ivGoBackMainActivity.setOnClickListener {
+            finish()
+        }
+
+        val btAddToPlan = findViewById<Button>(R.id.button5)
+        btAddToPlan.setOnClickListener {
             finish()
         }
     }
